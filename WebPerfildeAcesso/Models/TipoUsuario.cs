@@ -10,7 +10,7 @@ namespace WebPerfildeAcesso.Models
     [Table("TipoUsuario")]
     public class TipoUsuario
     {
-        [Display(Name = "Credencial")]
+        [Display(Name = "Código")]
 
         [Column("Id")]
         public int Id { get; set; }

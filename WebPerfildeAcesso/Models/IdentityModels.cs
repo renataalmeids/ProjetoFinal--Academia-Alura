@@ -29,5 +29,9 @@ namespace WebPerfildeAcesso.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WebPerfildeAcesso.Models.TipoUsuario> TipoUsuarios { get; set; }
+
+        public System.Data.Entity.DbSet<WebPerfildeAcesso.Models.AcessoUsuario> AcessoUsuarios { get; set; }
     }
 }

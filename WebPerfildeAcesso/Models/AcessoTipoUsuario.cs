@@ -9,13 +9,13 @@ namespace WebPerfildeAcesso.Models
 {
     public class AcessoUsuario
     {
-        [Display(Name = "Credencial")]
+        [Display(Name = "Código")]
         [Column("Id")]
         public int Id { get; set; }
 
-        [Display(Name = "Cargo")]
-        [Column("NomeOcupação")]
-        public string NomeOcupação { get; set; }
+        [Display(Name = "Descrição")]
+        [Column("NomeFuncionalidade")]
+        public string NomeFuncionalidade { get; set; }
 
         [Display(Name = "TipoUsuario")]
         [ForeignKey("TipoUsuario")]

@@ -26,6 +26,6 @@ namespace WebPerfildeAcesso.Models
         [ForeignKey("IdentityUser")]
         [Column(Order = 1)]
         public string IdentityUser { get; set; }
-        public virtual IdentityUser  { get; set; }
+        public virtual IdentityUser IdentityUser { get; set; }
     }
 }
